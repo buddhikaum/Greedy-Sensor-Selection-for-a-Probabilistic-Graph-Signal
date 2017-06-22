@@ -17,12 +17,16 @@ on which the covariance of the graph signal depeneds on
 Usage : 
 
 python Laplacian.py <random seed> <number of vertices> <b>
+
 #b is 1,-1 indicating whether we are removing an edge or adding an edge.
 
 To compute sensors
 python SelectTimeVarying.py <random seed> <number of vertices> <fraction observed> <b>
+
 #fraction observed is a value less than 1. 
 
 Eg. 
+
 python Laplacian.py 1 400 1
+
 python SelectTimeVarying.py 1 400 .5 1
