@@ -15,7 +15,6 @@ Laplacian.py generates the unnormalized laplacian from random graph
 on which the covariance of the graph signal depeneds on 
 
 Usage : 
-
 python Laplacian.py <random seed> <number of vertices> <b>
 
 #b is 1,-1 indicating whether we are removing an edge or adding an edge.
