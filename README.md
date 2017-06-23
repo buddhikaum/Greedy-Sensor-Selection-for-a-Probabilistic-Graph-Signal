@@ -39,7 +39,7 @@ python SelectTimeVarying.py 1 400 .5 1
 
 
 
-S. Liu, S. P. Chepuri, M. Fardad, E. Maşazade, G. Leus and P. K. Varshney, 
+[1] S. Liu, S. P. Chepuri, M. Fardad, E. Maşazade, G. Leus and P. K. Varshney, 
 "Sensor Selection for Estimation with Correlated Measurement Noise," 
 in IEEE Transactions on Signal Processing, 
 vol. 64, no. 13, pp. 3509-3522, July1, 1 2016.
