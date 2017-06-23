@@ -58,6 +58,9 @@ def SelectOriginalOnly(Sigma,R,N,M):
 
 def SelectOriginal(Sigma,R,N,M):
 
+	#=================================================
+	#=================Algorithm 2=====================
+	#=================================================
 	#Algo. 2 in paper. 
 	#Selection sensor and saving computations 
 	selected_list = []
@@ -128,6 +131,9 @@ while kk<M and selected_list[kk]==selected_list2[kk]:
 	kk = kk+1
 print 'Number of valid sensors from Original graph',kk
 #Selecting sensors using Algo. 3
+#===================================================================
+# ========================== Starting Algorithm 3 ===================
+#====================================================================
 t0 = time.time();
 #w_0 and v_0
 v_t = np.dot(V.T,np.dot(Sigma,V))[0,0]
