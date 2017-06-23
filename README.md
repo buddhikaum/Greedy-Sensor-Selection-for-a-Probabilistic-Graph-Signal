@@ -19,12 +19,12 @@ previously published greedy algorithm by Liu et. al. [1].
 
 Usage : 
 
-python Laplacian.py <random seed> <number of vertices> <b>
+python Laplacian.py [random seed] [number of vertices] [b]
 
 #b is 1,-1 indicating whether we are removing an edge or adding an edge.
 
 To compute sensors
-python SelectTimeVarying.py <random seed> <number of vertices> <fraction observed> <b>
+python SelectTimeVarying.py [random seed] [number of vertices] [fraction observed]> [b]
 
 #fraction observed is a value less than 1. 
 
