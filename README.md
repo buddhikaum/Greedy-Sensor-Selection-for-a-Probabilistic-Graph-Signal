@@ -11,8 +11,11 @@ in a single edge in the original graph. Based on provious computations
 this algorithm selects sensors efficiently compared to selecting sensors 
 from scratch. 
 
-Laplacian.py generates the unnormalized laplacian from random graph 
-on which the covariance of the graph signal depeneds on 
+Laplacian.py generates the unnormalized laplacian from a random graph 
+on which the covariance of the graph signal depeneds on.
+
+The proposed algorithm has a time complexity of O(n^3) compared to 
+previously published greedy algorithm by Liu et. al. [1].
 
 Usage : 
 
@@ -30,3 +33,13 @@ Eg.
 python Laplacian.py 1 400 1
 
 python SelectTimeVarying.py 1 400 .5 1
+
+
+
+
+
+
+S. Liu, S. P. Chepuri, M. Fardad, E. Maşazade, G. Leus and P. K. Varshney, 
+"Sensor Selection for Estimation with Correlated Measurement Noise," 
+in IEEE Transactions on Signal Processing, 
+vol. 64, no. 13, pp. 3509-3522, July1, 1 2016.
