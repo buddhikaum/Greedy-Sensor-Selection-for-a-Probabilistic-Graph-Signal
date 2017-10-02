@@ -4,7 +4,10 @@ Implementation of the algorithms in
 in 2017 IEEE 7th International Workshop on Computational Advances in
 Multi-Sensor Adaptive Processing (CAMSAP) (IEEE CAMSAP 2017)
 
-Provides two algorithms for efficient selection of sensors for 
+First algorithm imporoves the time complexity of the 
+existing greedy sensor selection algorithm in [1].
+
+Next two algorithms for efficient selection of sensors for 
 estimating a probabilistic graph signal. 
 First algorithm (SelectOriginalOnly in SelectTimeVarying.py) provides 
 an efficent algorithm for computing trace of the posterior covariance matrix
