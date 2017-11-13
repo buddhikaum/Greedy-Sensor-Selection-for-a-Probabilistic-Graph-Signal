@@ -1,7 +1,7 @@
 # Greedy-Sensor-Selection-for-a-Probabilistic-Graph-Signal
 Implementation of the algorithms in
 "Efficient Sensor Selection with Application to Time Varying Graphs",
-in 2017 IEEE 7th International Workshop on Computational Advances in
+in the 7th IEEE International Workshop on Computational Advances in
 Multi-Sensor Adaptive Processing (CAMSAP) (IEEE CAMSAP 2017)
 
 First algorithm imporoves the time complexity of the 
