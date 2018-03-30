@@ -27,7 +27,7 @@ previously published greedy algorithm by Liu et. al. [1].
 
 Usage : 
 # For algorithm 1 run the script file 
-bash algo1_script.txt 
+bash algo1_script.sh 
 # For algorithms 2 and 3 in the paper 
 python Laplacian.py [random seed] [number of vertices] [b]
 
